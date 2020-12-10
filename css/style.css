@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(30, 46, 80);
+}
+/*Separators of sections*/
+[id*=separator-] {
+    height: 80px;
+}
+/*----------Nav----------*/
+header nav {
+    position: fixed;
+    top: 0%;
+    left: 1%;
+    right: 1%;
+    display: flex;
+    border: solid gray;
+    justify-content: space-between;
+    padding: 5px;
+    min-height: 60px;
+    background-color: rgba(255, 165, 0, 0.8);
+    border: solid orange;
+}
+.menu {
+    display: flex;
+    width: 60%;
+}
+header nav a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    border-right: solid orange;
+    width: 25%;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+header nav a:hover {
+    background-color: rgb(165, 122, 43);
+}
+.logo {
+    background-image: url();
+    width: 10%;
+    text-align: center;
+    margin: auto;
+}
+.logo i {
+    transform: scale(3.5);
+}
+/*----------Sections----------*/
+/*-----General-----*/
+.section-styles {
+    border: solid orange;
+    margin: 20px;
+    background-color: rgba(179, 130, 40, 0.8);
+}
+.container {
+    border: solid orange;
+    margin: 20px;
+    text-align: center;
+    min-height: 450px;
+}
+/*-----First section Home-----*/
+.section-home {
+    background-image: url(../img/perro-primera-seccion.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-home div.container h1 {
+    font-size: 4rem;
+    margin-bottom: 50px;
+    color: orange;
+}
+.section-home div.container h2 {
+    color: orange;
+    margin-bottom: 140px;
+}
+.section-home div.container a {
+    position: relative;
+    text-decoration: none;
+    background-color: rgba(179, 130, 40, 0.8);
+    border: solid orange;
+    color: black;
+    padding: 10px;
+    border-radius: 32px;
+}
+/*-----Section About us-----*/
+.section-about-us {
+    background-image: url(../img/paseo-perros.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.section-about-us .container {
+    background-color: rgba(179, 130, 40, 0.4);
+}
+.section-about-us .container div p {
+    text-align: justify;
+    font-weight: bold;
+    padding: 15px;
+}
+/*-----Section Services-----*/
+.section-services .container .cards{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px;
+    justify-content: center;
+}
+.card {
+    border: solid orange;
+    background-color: rgba(255, 165, 0, 0.8);
+    width: 25%;
+    min-width: 280px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 12px;
+}
+[class*=service-] {
+    height: 200px;
+    width: 90%;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+.service-1-img {
+    background-image: url(../img/guarderia-perros.jpg);
+}
+.service-2-img {
+    background-image: url(../img/peluqueria-perro.jpg);
+}
+.service-3-img {
+    background-image: url(../img/entretenimiento-perros.jpg);
+}
+.service-4-img {
+    background-image: url(../img/gato-accesorio.jpg);
+}
+/*-----Last section Contact-----*/
+.section-contact .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.contact-card {
+    background-color: orange;
+    width: 40%;
+    min-width: 280px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 12px;
+}
+.networks i {
+    align-content: center;
+    padding: 10px;
+}
+.section-contact h4 {
+    margin-top: 50px;
+}
+#form {
+    text-align: center;
+    width: 70%;
+    padding: 15px;
+    margin: auto;
+}
+input, button {
+    margin: 4px;
+}
+[placeholder="Mensaje"] {
+    height: 100px;
+}
+/*----------footer----------*/
+footer {
+    text-align: center;
+    background-color: rgba(179, 130, 40, 0.8);
+    padding: 20px;
+}
+/*----------*/
