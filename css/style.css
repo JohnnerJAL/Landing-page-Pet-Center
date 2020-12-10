@@ -63,12 +63,30 @@ header nav a:hover {
 }
 .section-home div.container h1 {
     font-size: 4rem;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     color: orange;
+    margin-top: 10px;
 }
 .section-home div.container h2 {
-    color: orange;
-    margin-bottom: 140px;
+    margin-bottom: 50px;
+}
+.new-client {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border: solid orange;
+    background-color: rgba(179, 130, 40, 0.4);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 40px;
+    justify-content: center;
+    padding: 10px;
+}
+.new-client h4, .new-client p {
+
 }
 .section-home div.container a {
     position: relative;
