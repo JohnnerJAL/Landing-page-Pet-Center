@@ -1,9 +1,5 @@
 body {
-    background-color: rgb(30, 46, 80);
-}
-/*Separators of sections*/
-[id*=separator-] {
-    height: 80px;
+    background-color: rgb(47, 72, 124);
 }
 /*----------Nav----------*/
 header nav {
@@ -18,6 +14,7 @@ header nav {
     min-height: 60px;
     background-color: rgba(255, 165, 0, 0.8);
     border: solid orange;
+    border-radius: 12px;
 }
 .menu {
     display: flex;
@@ -38,10 +35,14 @@ header nav a:hover {
     background-color: rgb(165, 122, 43);
 }
 .logo {
-    background-image: url();
     width: 10%;
     text-align: center;
     margin: auto;
+    padding-top: 15px;
+}
+.logo p {
+    margin: 0%;
+    margin-top: 15px;
 }
 .logo i {
     transform: scale(3.5);
@@ -51,13 +52,8 @@ header nav a:hover {
 .section-styles {
     border: solid orange;
     margin: 20px;
-    background-color: rgba(179, 130, 40, 0.8);
-}
-.container {
-    border: solid orange;
-    margin: 20px;
-    text-align: center;
-    min-height: 450px;
+    background-color: rgba(243, 239, 239, 0.8);
+    border-radius: 12px;
 }
 /*-----First section Home-----*/
 .section-home {
@@ -107,8 +103,7 @@ header nav a:hover {
 }
 .card {
     border: solid orange;
-    background-color: rgba(255, 165, 0, 0.8);
-    width: 25%;
+    background-color: #ffa500cc;
     min-width: 280px;
     margin: 10px;
     padding: 10px;
@@ -116,7 +111,6 @@ header nav a:hover {
 }
 [class*=service-] {
     height: 200px;
-    width: 90%;
     background-size: cover;
     background-position: center;
     margin: auto;
@@ -141,8 +135,8 @@ header nav a:hover {
     box-sizing: border-box;
 }
 .contact-card {
-    background-color: orange;
-    width: 40%;
+    border: solid orange;
+    background-color: #ffa500cc;
     min-width: 280px;
     margin: 20px;
     padding: 15px;
@@ -157,7 +151,6 @@ header nav a:hover {
 }
 #form {
     text-align: center;
-    width: 70%;
     padding: 15px;
     margin: auto;
 }
@@ -172,5 +165,6 @@ footer {
     text-align: center;
     background-color: rgba(179, 130, 40, 0.8);
     padding: 20px;
+    border-radius: 12px;
 }
 /*----------*/

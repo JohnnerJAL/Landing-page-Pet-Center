@@ -5,6 +5,7 @@
     <meotsas name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Centro Mascotas</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/grid.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 <body>
@@ -18,6 +19,7 @@
             </div>
             <div class="logo">
                 <i class="fas fa-paw"></i>
+                <p>Mascoticas</p>
             </div>
         </nav>
     </header>
@@ -39,9 +41,14 @@
                 <div>
                     <h2> Quienes somos</h2>
                     <p>
-                        Somos una empresa certificada en el cuido de tu mascota, llevamos en el mercado desde enero del 2018.
-                        La prioridad para nosotros es el bienestar de tu mascota y la satisfacción de nuestros clientes.     
+                        Somos una empresa que ofrece diversión segura y confiable a tus mascotas, en nuestras instralaciones
+                        podras encontrar diversidad de juegos y espacios calidos, el sitio ideal para que dejes a tu mascota en el mejor lugar.     
                     </p>
+                    <p>
+                        Brindamos un exelente servicio con los mejores profesionales que se encargaran que tu 
+                        mascota se encuentre segura.
+                    </p>
+
                 </div> 
             </div>
         </section>
@@ -52,32 +59,32 @@
             <div class="container">
                 <h2>Servicios</h2>
                 <div class="cards">
-                    <div class="card">
+                    <div class="card col-3">
                         <h3>Guarderia</h3>
-                        <div class="service-1-img"></div>
+                        <div class="service-1-img col-11"></div>
                         <p>
-                            Servicio de guarderia, trae tu perro
+                          Un espacio donde puedes dejar a tu mascota, ofrecemos un cuidado exepcional.
                         </p>
                     </div>
-                    <div class="card">
+                    <div class="card col-3">
                         <h3>Higiene y Peluqueria</h3>
-                        <div class="service-2-img"></div>
+                        <div class="service-2-img col-11"></div>
                         <p>
-                            Peluqueria
+                            Tu mascota contara con el mejor servicio y con los mejores profesionales.
                         </p>
                     </div>
-                    <div class="card">
+                    <div class="card col-3">
                         <h3>Entrenamiento</h3>
-                        <div class="service-3-img"></div>
+                        <div class="service-3-img col-11"></div>
                         <p>
-                            Servicio de guarderia, trae tu perro
+                            Tu mascota sera feliz con todas las actividades, tendra una vida social.
                         </p>
                     </div>
-                    <div class="card">
+                    <div class="card col-3">
                         <h3>Venta de accesorios</h3>
-                        <div class="service-4-img"></div>
+                        <div class="service-4-img col-11"></div>
                         <p>
-                            Servicio de guarderia, trae tu perro
+                            Encontraras los mejores accesorios para que tu mascota este feliz.
                         </p>
                     </div>
                 </div>
@@ -88,7 +95,7 @@
 
         <section id="section-contact" class="section-contact section-styles">
             <div class="container">
-                <div class="contact-card">
+                <div class="contact-card col-5">
                     <h2>Información de contacto</h2>
                     <h4>Redes sociales</h4>
                     <div>
@@ -104,9 +111,9 @@
                         <i class="fab fa-youtube"></i>
                     </div>
                 </div>
-                <div class="contact-card">
+                <div class="contact-card col-5">
                     <h2>Contactanos</h2>
-                    <form id="form" action="#">
+                    <form id="form" class="col-9" action="#">
                         <input type="text" placeholder="Nombre y Apellido">
                         <input type="email" placeholder="Email">
                         <input type="number" placeholder="Teléfono">
