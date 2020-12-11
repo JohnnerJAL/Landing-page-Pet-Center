@@ -78,15 +78,43 @@ header nav a:hover {
     border: solid orange;
     background-color: rgba(179, 130, 40, 0.4);
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     margin: auto;
     margin-bottom: 40px;
     justify-content: center;
     padding: 10px;
+    animation-name: move-circle;
+    animation-duration: 5s;
 }
-.new-client h4, .new-client p {
-
+.new-client h4 {
+    margin: 2%;
+}
+.new-client .ofert {
+    background-color: gray;
+    border-radius: 24px;
+}
+@keyframes move-circle {
+    0% {
+        margin-left: 0%;
+        transform: rotate(0deg);
+    }
+    25% {
+        margin-left: 50%;
+        transform: rotate(20deg);
+    }
+    50% {
+        margin-right: 5%;
+        transform: rotate(0deg);
+    }
+    70% {
+        margin-right: 28%;
+        transform: rotate(-20deg);
+    }
+    85% {
+        margin: 0 auto;
+        transform: rotate(0deg);
+    }
 }
 .section-home div.container a {
     position: relative;
@@ -96,6 +124,10 @@ header nav a:hover {
     color: black;
     padding: 10px;
     border-radius: 32px;
+    transform: scale(1);
+}
+.section-home div.container a:hover {
+    background-color: gray;
 }
 /*-----Section About us-----*/
 .section-about-us {
